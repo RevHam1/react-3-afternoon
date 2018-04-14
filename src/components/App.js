@@ -62,7 +62,8 @@ class App extends Component {
                     date={ post.date }
                     id={ post.id }
                     updatePostFn={ this.updatePost } 
-                    deletePostFn={ this.deletePost } />            ))
+                    deletePostFn={ this.deletePost } />
+            ))
           }          
           
         </section>
